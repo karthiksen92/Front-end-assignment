@@ -142,7 +142,16 @@ ul {
     padding: 0 !important;
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .widget-user-username {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 190px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
     .widget-user-username {
         white-space: nowrap;
         overflow: hidden;
@@ -150,4 +159,3 @@ ul {
         width: 220px;
     }
 }
-
