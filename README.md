@@ -16,7 +16,6 @@ presents it.
 What things you need to install the software and how to install them
 
 ```
-
 * Fetch the content using any JavaScript technology
 * Make a view of the data that lists the countries in Europe, and their capital cities
 * The list has to be in alphabetical order

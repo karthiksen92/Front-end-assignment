@@ -5,11 +5,11 @@ $.ajax({
 
     success: function (data) {
         response = data;
-        createTable(data);
+        createCountry(data);
     }
 });
 
-function createTable(data) {
+function createCountry(data) {
 
     var content = $(data).filter(function (index, n) {
         return n.region === 'Europe';
@@ -51,7 +51,7 @@ function createTable(data) {
             '        <ul class="nav nav-stacked">' +
             '          <li><a href="#">Alpha Code<span class="pull-right">' + content[i].alpha3Code + '</span></a></li>' +
             '         <li><a href="#">Population <span class="pull-right">' + content[i].population + '</span></a></li>' +
-            '         <li><a href="#">Location <span class="pull-right">' + content[i].latlng + '</span></a></li>' +
+            '         <li><a href="#">Location <span class="pull-right latlong">' + content[i].latlng + '</span></a></li>' +
             '         <li><a href="#">Language<span class="pull-right">' + content[i].languages[0].name + '</span></a></li>' +
             '       </ul>' +
             '     </div>' +

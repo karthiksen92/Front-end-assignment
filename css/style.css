@@ -2,7 +2,9 @@ body {
     background-color: #4caf5017 !important;
 }
 
-.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus {
+.nav>li>a:hover,
+.nav>li>a:active,
+.nav>li>a:focus {
     background: #eeffee !important;
 }
 
@@ -10,8 +12,8 @@ body {
     font-weight: 600 !important;
 }
 
-.col-md-3{
-padding-left: 16px;
+.col-md-3 {
+    padding-left: 16px;
 }
 
 .page-header {
@@ -149,13 +151,29 @@ ul {
         text-overflow: ellipsis;
         width: 190px;
     }
+    .latlong {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 90px;
+        text-align: -webkit-right;
+        text-align: -moz-right;
+    }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
     .widget-user-username {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         width: 220px;
+    }
+    .latlong {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 140px;
+        text-align: -webkit-right;
+        text-align: -moz-right;
     }
 }
