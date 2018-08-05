@@ -28,6 +28,6 @@ Define your own view of the data and be ready to talk about why you chose this l
 
 ## Usage
 
-Download using the link and run the html, no installation requeried 
+Download using the link and run the html, no installation required 
 
 
